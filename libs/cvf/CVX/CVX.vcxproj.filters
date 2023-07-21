@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="codec\median.cpp" />
+    <ClCompile Include="core.cpp" />
+    <ClCompile Include="geos.cpp" />
+    <ClCompile Include="gui.cpp" />
+    <ClCompile Include="imgset.cpp" />
+    <ClCompile Include="ipf.cpp" />
+    <ClCompile Include="mean_filter.cpp" />
+    <ClCompile Include="resample.cpp" />
+    <ClCompile Include="resize.cpp" />
+    <ClCompile Include="src.cpp" />
+    <ClCompile Include="codec.cpp">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\writeGIF.cpp">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\readGIF.cpp">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\gif.cpp">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\bitstrm.cpp">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\bmpio.cpp">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\iobase.cpp">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\utils.cpp">
+      <Filter>codec</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bfsio.h" />
+    <ClInclude Include="cc.h" />
+    <ClInclude Include="core.h" />
+    <ClInclude Include="def.h" />
+    <ClInclude Include="gaussian_filter.h" />
+    <ClInclude Include="geos.h" />
+    <ClInclude Include="gui.h" />
+    <ClInclude Include="imgset.h" />
+    <ClInclude Include="iop.h" />
+    <ClInclude Include="ipf.h" />
+    <ClInclude Include="max_min_filter.h" />
+    <ClInclude Include="mean_filter.h" />
+    <ClInclude Include="dpatch.h" />
+    <ClInclude Include="pixel.h" />
+    <ClInclude Include="resample.h" />
+    <ClInclude Include="resize.h" />
+    <ClInclude Include="vidio.h" />
+    <ClInclude Include="vis.h" />
+    <ClInclude Include="codec.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\ioimpl.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\gif.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\fsdither.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\bitstrm.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\bmpio.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\iobase.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\utils.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="codec">
+      <UniqueIdentifier>{a67600d7-87d3-40a2-bb40-9d4341dc8661}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
